@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titleview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/selected"
+        android:layout_width="5dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundcorner_selecteditem"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/categorytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="15dp"
+        android:paddingLeft="20dp"
+        android:text="Popular Categories"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/categorytext"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorGrayLight" />
+
+</RelativeLayout>
